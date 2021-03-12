@@ -1,0 +1,16 @@
+@media(min-width:992px){
+    .image-responsive{
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .image-responsive{
+        width: 100%;
+    }
+}
+.icons img{
+    width: 20px;
+}
+.icon-style img{
+    width: 100px;
+}

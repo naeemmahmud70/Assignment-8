@@ -1,0 +1,21 @@
+.div-style{
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.div-style img{
+    height: 200px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+}
+.btn-style{
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+}
