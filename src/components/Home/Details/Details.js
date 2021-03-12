@@ -13,7 +13,7 @@ import gender from '../../../male-gender-sign 1.png'
 const Details = () => {
     const {teamId} = useParams()
     const [team, setTeam] = useState([])
-    const {strTeamBanner, strTeam, intFormedYear, strSport, strGender, strDescriptionDE, strDescriptionEN, strFacebook} = team;
+    const {strTeamBanner, strTeam, intFormedYear, strSport, strGender, strDescriptionDE, strDescriptionEN} = team;
     console.log(team)
     useState(()=>{
         const url = `https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${teamId}`
